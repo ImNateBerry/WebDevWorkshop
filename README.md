@@ -49,6 +49,8 @@ Welcome to the interactive workshop! Today we'll cover the basics of HTML, how t
 4. **Deploying on Vercel**
    - **Sign Up / Log In to Vercel:**  
      Visit [Vercel.com](https://vercel.com/) and create an account if you don't have one.
+    - **Install GitHub Desktop:**  
+     Download and install GitHub Desktop from [Github](https://desktop.github.com/download/).
    - **Push to GitHub:**  
      Commit your changes and push your project to a GitHub repository.
    - **Deploy Your Project:**  
