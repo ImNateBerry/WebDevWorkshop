@@ -4,8 +4,8 @@ export default function Home() {
   return (
     // Main container with responsive padding and max-width
     <main className="min-h-screen p-4 flex flex-col items-center max-w-4xl mx-auto">
-      {/* Hero section with name and profession */}
-      <h1 className="text-4xl font-bold mt-8">Hi, I'm [Your Name]</h1>
+      {/* Hero section with name and profession (make sure to use &apos; for any ' */}
+      <h1 className="text-4xl font-bold mt-8">Hi, I&apos;m [Your Name]</h1>
       <p className="mt-4 text-xl text-center">
         I am a [Your Profession]. Welcome to my portfolio!
       </p>
