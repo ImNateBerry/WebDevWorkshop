@@ -31,7 +31,6 @@ Welcome to the interactive workshop! Today we'll cover the basics of HTML, how t
    - **Get the Template Files:**  
      Replace the contents of the following files with the ones provided in this repo:
      - `app/page.tsx` (Main portfolio page)
-     - `app/globals.css` (Styles for the portfolio)
      - `app/layout.tsx` (Pages structure)
    - **Run development server:**
         ```
