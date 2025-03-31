@@ -19,7 +19,7 @@ Welcome to the interactive workshop! Today we'll cover the basics of HTML, how t
      ```
    - **Choose the following options (should be defaults):**
         ```
-         What is your project named? my-portfolio
+          What is your project named? my-portfolio
           Would you like to use TypeScript? Yes
           Would you like to use ESLint? Yes
           Would you like to use Tailwind CSS? Yes
@@ -54,7 +54,7 @@ Welcome to the interactive workshop! Today we'll cover the basics of HTML, how t
      Commit your changes and push your project to a GitHub repository.
    - **Deploy Your Project:**  
      In Vercel, import your repository. Vercel will automatically build and deploy your site.
-   - Once deployed, you'll receive a live URL to share your portfolio!
+   - **Once deployed, you'll receive a live URL to share your portfolio!**
 
 ## Additional Resources
 - [Next.js Documentation](https://nextjs.org/docs)
