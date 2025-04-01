@@ -1,13 +1,10 @@
-# Next.js Portfolio Workshop
+# Next.js Portfolio Workshop Live Demo
 
-Welcome to the interactive workshop! Today we'll cover the basics of HTML, how to host a simple HTML page, and dive into creating a portfolio using Next.js. You'll learn how to set up a Next.js project on your computer, modify a starter portfolio template, and deploy your site on Vercel.
+Welcome to the interactive workshop! Today we'll dive into creating a portfolio using Next.js. You'll learn how to set up a Next.js project on your computer, modify a starter portfolio template, and deploy your site on Vercel.
 
-## Workshop Outline
+## Workshop Demo
 
-1. **HTML Basics & Hosting**  
-   - Quick overview of HTML structure, tags, and elements.
-
-2. **Setting Up Your Next.js Project**
+1. **Setting Up Your Next.js Project**
    - **Install Node.js:**  
      Download and install Node.js from [nodejs.org](https://nodejs.org/).
    - **Create a Next.js App:**  
@@ -28,7 +25,8 @@ Welcome to the interactive workshop! Today we'll cover the basics of HTML, how t
           W/ould you like to customize the import alias (`@/*` by default)? No
         ```
 
-3. **Customizing the Portfolio**
+2. **Customizing the Portfolio**
+    - Open `app/page.tsx` in your preferred IDE/Code Editor (VS Code, Cursor, etc).
     - Get the Template Files:  
      Replace the contents of the following files with the ones provided in this repo:
         - `app/page.tsx` (Main portfolio page)
@@ -37,25 +35,30 @@ Welcome to the interactive workshop! Today we'll cover the basics of HTML, how t
         ```
         npm run dev
         ```
-   - Open `app/page.tsx` in your preferred IDE/Code Editor (VS Code, Curosr, etc).
-     - Update the title, headings, and content to reflect your personal info.
-     - Customize the sections: "About Me", "Projects", and "Contact".
+   -Update the title, headings, and content to reflect your personal info.
+      -Customize the sections: "About Me", "Projects", and "Contact".
    - Modify `classNames` to change colors, layout, or fonts using Tailwind CSS.
    - Modify layout.tsx metadata to make page title say [Your Name]'s Portfolio
 
-5. **Deploying on Vercel**
-   - **Sign Up / Log In to Vercel:**  
-     Visit [Vercel.com](https://vercel.com/) and create an account if you don't have one.
-    - **Install GitHub Desktop:**  
+3. **Deploying on Vercel**
+   - **Install GitHub Desktop:**  
      Download and install GitHub Desktop from [Github](https://desktop.github.com/download/).
    - **Push to GitHub:**  
-     Commit your changes and push your project to a GitHub repository.
+     - Open Github Desktop and sign in
+     - Click File->Add Local Repository
+     - Type a Commit summary and hit commit, then Publish at the top
+   - **Sign Up / Log In to Vercel:**  
+     Visit [Vercel.com](https://vercel.com/) and sign in with github.
    - **Deploy Your Project:**  
-     In Vercel, import your repository. Vercel will automatically build and deploy your site.
+     Once in vercel do the following:
+     - Under import repository click install
+     - Import the my-portfolio repository
+     - Click deploy!
    - **Once deployed, you'll receive a live URL to share your portfolio!**
 
 
 ## Learn more!
+- Look over and try to implement the optional component that fetchs sample api data into your app somewhere
 - [Full Fullstack Web Course Youtube](https://www.youtube.com/watch?v=ZxKM3DCV2kE&ab_channel=Mehul-Codedamn)
 - [Vercel's Next.js Course](https://nextjs.org/learn)
 - [Next.js data fetching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching)
